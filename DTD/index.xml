@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE body SYSTEM "dtd.dtd">
+<body>
+  <obj type="flat" id="num1">
+    <name>River Town</name>
+    <address>Kharkov</address>
+    <date_build>
+      <day>15</day>
+      <month>08</month>
+      <year>2013</year>
+    </date_build>
+    <description>
+      <num_rooms>3</num_rooms>
+      <num_floor>12</num_floor>
+    </description>
+    <cost currency="UAH">1500000</cost>
+  </obj>
+  
+  <obj type="house" id="num2">
+    <name>Avantage</name>
+    <address>Kharkov</address>
+    <date_build>
+      <day>10</day>
+      <month>05</month>
+      <year>2014</year>
+    </date_build>
+    <description>
+      <num_rooms>8</num_rooms>
+      <num_floor>2</num_floor>
+    </description>
+    <cost currency="USD">725000</cost>
+  </obj>
+  
+  <obj type="sector" id="num3">
+    <name>non</name>
+    <address>Kharkov</address>
+    <description>
+      <size>80 x 120 metrs</size>
+    </description>
+    <cost currency="EUR">12000</cost>
+  </obj>
+</body>
+  

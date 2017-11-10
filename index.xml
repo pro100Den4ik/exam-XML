@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+
+<body>
+  <th>name</th>
+  <th>address</th>
+  <th>date-build</th>
+  <th>description</th>
+  <th>cost</th>
+  
+  <obj type="flat" id="num1">
+    <name>River Town</name>
+    <address>Kharkov</address>
+    <date_build>
+      <day>15.</day>
+      <month>08.</month>
+      <year>2013</year>
+    </date_build>
+    <description>
+      <num_rooms>3 r.</num_rooms>
+      <num_floor>12 fl.</num_floor>
+    </description>
+    <cost currency="UAH">1500000 UAH</cost>
+  </obj>
+  
+  <obj type="house" id="num2">
+    <name>Avantage</name>
+    <address>Kharkov</address>
+    <date_build>
+      <day>10.</day>
+      <month>05.</month>
+      <year>2014</year>
+    </date_build>
+    <description>
+      <num_rooms>8 r.</num_rooms>
+      <num_floor>2 fl.</num_floor>
+    </description>
+    <cost currency="USD">725000 USD</cost>
+  </obj>
+  
+  <obj type="sector" id="num3">
+    <name>non</name>
+    <address>Kharkov</address>
+    <date_build>
+      <day></day>
+      <month></month>
+      <year></year>
+    </date_build>
+    <description>
+      <size>80 x 120 metrs</size>
+    </description>
+    <cost currency="EUR">12000 EUR</cost>
+  </obj>
+</body>
+  

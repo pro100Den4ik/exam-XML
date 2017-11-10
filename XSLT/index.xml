@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt.xsl"?>
+
+<x:body xmlns:x="x-schema:xdr_schema.xml">
+  <x:obj type="flat" id="n1">
+    <x:name>River Town</x:name>
+    <x:address>Kharkov</x:address>
+    <x:date_build>
+      <x:day>15</x:day>
+      <x:month>08</x:month>
+      <x:year>2013</x:year>
+    </x:date_build>
+    <x:description>
+      <x:num_rooms>3</x:num_rooms>
+      <x:num_floor>12</x:num_floor>
+    </x:description>
+    <x:cost currency="UAH">1500000</x:cost>
+  </x:obj>
+  
+  <x:obj type="house" id="n2">
+    <x:name>Avantage</x:name>
+    <x:address>Kharkov</x:address>
+    <x:date_build>
+      <x:day>10</x:day>
+      <x:month>05</x:month>
+      <x:year>2016</x:year>
+    </x:date_build>
+    <x:description>
+      <x:num_rooms>15</x:num_rooms>
+      <x:num_floor>2</x:num_floor>
+    </x:description>
+    <x:cost currency="USD">725000</x:cost>
+  </x:obj>
+  
+  <x:obj type="sector" id="n3">
+    <x:name>non</x:name>
+    <x:address>Kharkov</x:address>
+    <x:description>
+      <x:size>80 x 120 metrs</x:size>
+    </x:description>
+    <x:cost currency="EUR">12000</x:cost>
+  </x:obj>
+
+  <x:obj type="flat" id="n4">
+    <x:name>River Town</x:name>
+    <x:address>Kharkov</x:address>
+    <x:date_build>
+      <x:day>15</x:day>
+      <x:month>08</x:month>
+      <x:year>2013</x:year>
+    </x:date_build>
+    <x:description>
+      <x:num_rooms>2</x:num_rooms>
+      <x:num_floor>12</x:num_floor>
+    </x:description>
+    <x:cost currency="UAH">1100000</x:cost>
+  </x:obj>
+
+  <x:obj type="house" id="n5">
+    <x:name>Avantage</x:name>
+    <x:address>Dergachi</x:address>
+    <x:date_build>
+      <x:day>5</x:day>
+      <x:month>04</x:month>
+      <x:year>2014</x:year>
+    </x:date_build>
+    <x:description>
+      <x:num_rooms>8</x:num_rooms>
+      <x:num_floor>2</x:num_floor>
+    </x:description>
+    <x:cost currency="UAH">4560000</x:cost>
+  </x:obj>
+
+  <x:obj type="sector" id="n6">
+    <x:name>non</x:name>
+    <x:address>Kharkov</x:address>
+    <x:description>
+      <x:size>80 x 120 metrs</x:size>
+    </x:description>
+    <x:cost currency="USD">19500</x:cost>
+  </x:obj>
+</x:body>
+  

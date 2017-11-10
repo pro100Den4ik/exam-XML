@@ -1,0 +1,19 @@
+<!ELEMENT body (th*, obj*)>
+<!ELEMENT obj (name, address, date_build?, description, cost)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT date_build (day, month, year)>
+<!ELEMENT description (num_rooms?, num_floor?, size?)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT num_rooms (#PCDATA)>
+<!ELEMENT num_floor (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT th (#PCDATA)>
+
+<!ATTLIST obj id ID #REQUIRED>
+<!ATTLIST obj type (flat|house|sector) #REQUIRED>
+<!ATTLIST cost currency (UAH|USD|EUR) #REQUIRED>
+
